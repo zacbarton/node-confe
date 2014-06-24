@@ -1,0 +1,31 @@
+{
+  "name": "confe",
+  "description": "Simple config file management.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Barton"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacbarton/node-confe"
+  },
+  "dependencies": {
+    "deepmerge": "0.2.7"
+  },
+  "devDependencies": {
+  	"mocha": "1.20.1",
+  	"should": "4.0.4",
+  	"mock-fs": "2.3.1"
+  },
+  "keywords": [
+  	"conf"
+  	, "config"
+  	, "configuration"
+  	, "extend"
+  	, "merge"
+  	, "simple"
+  ]
+}
